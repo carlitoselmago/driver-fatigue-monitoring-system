@@ -32,7 +32,7 @@ def landmarks_to_np(landmarks, dtype="int"):
 #   **************************主函数入口***********************************
 #==============================================================================
 
-predictor_path = "./data/shape_predictor_68_face_landmarks.dat"#人脸关键点训练数据路径
+predictor_path = "data/shape_predictor_68_face_landmarks.dat"#人脸关键点训练数据路径
 detector = dlib.get_frontal_face_detector()#人脸检测器detector
 predictor = dlib.shape_predictor(predictor_path)#人脸关键点检测器predictor
 
